@@ -1,5 +1,5 @@
 def prime(num)
-  if (num) < 2
+  if num < 2
     return false
   end
 
@@ -12,5 +12,5 @@ def prime(num)
     i += 1
   end
 
-  true
+  return true
 end
