@@ -5,7 +5,7 @@ def prime?(num)
 
   i = 2
 
-  while i < num
+  while i <= num/2
     if num % i == 0
       return false
     end
